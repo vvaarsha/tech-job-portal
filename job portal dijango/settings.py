@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'aralxt83cxseu%+7%(-wx3qrtf+xjrq64zg9lxw&88coqr3ha*'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -66,11 +66,11 @@ WSGI_APPLICATION = 'JobPortal.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'new_job_portal_django_db',  # Your newly created database
-        'USER': 'new_job_portal_user',  # Your new MySQL username
-        'PASSWORD': 'Varkar#123',  # Password you set for the new user
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': '',  # Your newly created database
+        'USER': '',  # Your new MySQL username
+        'PASSWORD': '',  # Password you set for the new user
+        'HOST': '',
+        'PORT': '',
     }
 }
 
